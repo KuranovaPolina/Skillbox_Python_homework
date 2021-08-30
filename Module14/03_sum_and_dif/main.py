@@ -15,9 +15,9 @@ def digit_count(N):
 N = int(input("Input number: "))
 
 summ = digit_sum(N)
-print("Sum of digit:", summ)
+print("\nSum of digit:", summ)
 
 count = digit_count(N)
-print("Digit count: ", count)
+print("Digit count:", count)
 
-print("Difference: ", summ - count)
+print("Difference:", summ - count)
