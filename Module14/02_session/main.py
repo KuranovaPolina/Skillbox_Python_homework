@@ -9,14 +9,17 @@ y2 = float(input('Y: '))
 x_diff = x1 - x2
 y_diff = y1 - y2
 
-if x_diff != 0:
+if x_diff != 0 and y_diff != 0:
     k = y_diff / x_diff
     b = y2 - k * x2
 
     print("Уравнение прямой, проходящей через эти точки:")
     print("y = ", k, " * x + ", b)
 
-else:
+elif y_diff != 0:
     print("Уравнение прямой, проходящей через эти точки:")
-    print("y = ", x1)
+    print("x = ", x1)
+
+else:
+    print("Уравнение не определить. Бесконечное к-во прямых")
 
