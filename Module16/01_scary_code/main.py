@@ -14,3 +14,5 @@ a = d
 a.extend(c)
 print(a.count(3))
 print(a)
+
+# зачтено
