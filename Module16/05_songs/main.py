@@ -10,4 +10,17 @@ violator_songs = [
     ['Clean', 5.83]
 ]
 
-# TODO здесь писать код
+N = int(input("Number of sounds: "))
+time = 0
+
+for i in range(N):
+    name = input(f"{i + 1} sound: ")
+    for ind in violator_songs:
+        if ind[0] == name:
+            break
+
+    time += violator_songs[violator_songs.index(ind)][1]
+
+print(f"\nAll time: {round(time, 2)} minutes")
+
+# зачтено
