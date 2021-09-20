@@ -16,3 +16,5 @@ for i in range(K):
 
 for i in range(N):
     print(f"{i + 1} : {balance[i]}")
+
+# зачтено

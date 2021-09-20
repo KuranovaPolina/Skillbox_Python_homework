@@ -22,3 +22,5 @@ for i in range(N):
     time += violator_songs[violator_songs.index(ind)][1]
 
 print(f"\nAll time: {round(time, 2)} minutes")
+
+# зачтено

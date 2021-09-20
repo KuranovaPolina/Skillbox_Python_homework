@@ -20,3 +20,5 @@ while len(people) > 1:
     people.remove(people[delete])
 
 print(f"\n{people[0]} stayed")
+
+# зачтено

@@ -19,3 +19,5 @@ for person in people:
             break
 
 print("\nAnswer:", count)
+
+# зачтено

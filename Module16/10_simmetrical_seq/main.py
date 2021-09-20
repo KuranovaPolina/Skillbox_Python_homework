@@ -7,15 +7,16 @@ def f_is_polindrom(list, start):
             break
     return is_polindrom
 
+
 N = int(input("N = "))
 list = []
 
 for _ in range(N):
     list.append(int(input("Number: ")))
 
-print("\nline: ", end = "")
+print("\nline: ", end="")
 for i in list:
-    print(i, end = " ")
+    print(i, end=" ")
 
 stop = 0
 for i in range(N):
@@ -23,7 +24,8 @@ for i in range(N):
         stop = i
         break
 
-print("\nAdd:", stop, "\nnumbers: ", end = "")
+print("\nAdd:", stop, "\nnumbers: ", end="")
 for i in range(stop - 1, -1, -1):
-    print(list[i], end = ' ')
+    print(list[i], end=' ')
 
+# зачтено

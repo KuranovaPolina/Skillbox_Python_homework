@@ -18,3 +18,5 @@ while True:
             guests.append(name)
         else:
             print(f"Sori, {name}, there are not places\n")
+
+# зачтено

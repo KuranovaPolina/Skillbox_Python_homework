@@ -7,9 +7,11 @@ count = 0
 summ = 0
 
 for i in shop:
-        if i[0] == detail:
-                count += 1
-                summ += i[1]
+    if i[0] == detail:
+        count += 1
+        summ += i[1]
 
 print("Count: ", count)
 print("Price: ", summ)
+
+# зачтено

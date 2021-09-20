@@ -2,6 +2,7 @@ def addlist(list, start, end, step):
     for i in range(start, end + 1, step):
         list.append(i)
 
+
 def sort(numbers, N):
     for j in range(N):
         F = 0
@@ -12,6 +13,7 @@ def sort(numbers, N):
 
         if F == 0:
             break
+
 
 first_class = []
 second_class = []
@@ -24,3 +26,5 @@ new_list.extend(first_class)
 new_list.extend(second_class)
 sort(new_list, len(new_list) - 1)
 print(new_list)
+
+# зачтено
