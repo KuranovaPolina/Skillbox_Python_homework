@@ -8,3 +8,5 @@ result_list = [max(first_list[i], second_list[i]) for i in range(20)]
 print("first team: ", first_list)
 print("second team:", second_list)
 print("result:", result_list)
+
+# зачтено

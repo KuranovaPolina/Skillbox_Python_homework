@@ -6,3 +6,5 @@ new_list = [nice_list[i][j][k] for i in range(len(nice_list))
             for k in range(len(nice_list[i][j]))]
 
 print(new_list)
+
+# зачтено

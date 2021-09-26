@@ -10,3 +10,5 @@ for i in range(K):
     sticks[L_i - 1: R_i] = ["." for _ in range(L_i - 1, R_i)]
 
 print(f"Result: {''.join(sticks)}")
+
+# зачтено

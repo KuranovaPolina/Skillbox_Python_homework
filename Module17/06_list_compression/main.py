@@ -13,3 +13,5 @@ print(second_list)
 
 third_list = [number for number in second_list if number != 0]
 print(third_list)
+
+# зачтено
