@@ -9,6 +9,4 @@ for i in range(K):
 
     sticks[L_i - 1: R_i] = ["." for _ in range(L_i - 1, R_i)]
 
-print("Result: ", end = "")
-for i in sticks:
-    print(i, end = "")
+print(f"Result: {''.join(sticks)}")
