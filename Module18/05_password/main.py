@@ -8,6 +8,7 @@ def NumberCount(string):
 
     return count
 
+
 while True:
     password = input("Password: ")
 
@@ -17,3 +18,5 @@ while True:
     else:
         print("Reliable password")
         break
+
+# зачтено

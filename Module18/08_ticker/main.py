@@ -11,7 +11,7 @@ else:
     must = False
 
     for i in range(lens):
-        string2 = string2[lens - 1: lens - 2:-1] + string2[:lens-1]
+        string2 = string2[lens - 1: lens - 2:-1] + string2[:lens - 1]
         if string2 == string1:
             print("Must. Shift:", shift)
             must = True
@@ -21,3 +21,5 @@ else:
 
     if not must:
         print("Must not")
+
+# зачтено

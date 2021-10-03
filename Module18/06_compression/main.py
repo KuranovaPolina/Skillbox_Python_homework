@@ -18,3 +18,5 @@ while True:
     i += 1
 
 print(new_string)
+
+# зачтено

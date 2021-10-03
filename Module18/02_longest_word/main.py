@@ -8,3 +8,5 @@ for word in string_list:
         maxi = len(word)
 
 print(maxi)
+
+# зачтено

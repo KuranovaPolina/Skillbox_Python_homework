@@ -11,3 +11,5 @@ for i in range(len(user_string_list)):
 user_string_2 = " ".join(user_string_list)
 
 print("Result:", user_string_2)
+
+# зачтено
