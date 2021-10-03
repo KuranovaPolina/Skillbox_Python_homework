@@ -15,4 +15,4 @@ else:
            IP_is_rightIP = False
            break
     if IP_is_rightIP == True:
-        print("IP adress is correct")
+        print("IP address is correct")
