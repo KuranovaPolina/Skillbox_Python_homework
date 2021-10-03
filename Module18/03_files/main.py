@@ -7,3 +7,5 @@ elif not file_name.endswith(".txt" or ".docx"):
     print("Wrong end")
 else:
     print("Right file's name")
+
+# зачтено
