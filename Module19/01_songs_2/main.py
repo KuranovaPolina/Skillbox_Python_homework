@@ -10,4 +10,11 @@ violator_songs = {
     'Clean': 5.83
 }
 
-# TODO здесь писать код
+N = int(input("Number of sounds: "))
+time = 0
+
+for i in range(N):
+    name = input(f"{i + 1} sound: ")
+    time += violator_songs[name]
+
+print(f"\nAll time: {round(time, 2)} minutes")
