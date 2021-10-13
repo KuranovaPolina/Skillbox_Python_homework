@@ -24,4 +24,14 @@ store = {
     ],
 }
 
-# TODO здесь писать код
+for good in goods.keys():
+    res_price = 0
+    count = 0
+    tmp = store[goods[good]]
+
+    for t in tmp:
+        res_price += t['quantity'] * t['price']
+        count += t['quantity']
+        pass
+
+    print(f"{good} - {count} шт, стоимость {res_price} руб")
