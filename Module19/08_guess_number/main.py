@@ -1,29 +1,23 @@
-N = input("N = ")
+N = int(input("N = "))
 
 data = {
-    "Да": [],
+    "Да": ["{0}".format(i + 1) for i in range(N)],
     "Нет": []
 }
 
+step = 0
 while True:
     question = input("Нужное число есть среди вот этих чисел: ")
 
     if question != "Помогите!":
         answer = input("Ответ Артёма: ")
-        data[answer].extend(question.split(" "))
+        if step == 0 and answer == "Да":
+            data["Да"] = question.split(" ")
+        else:
+            data[answer].extend(question.split(" "))
     else:
         break
 
 result = sorted(list(set(data["Да"]) - set(data["Нет"])))
 for i in result:
     print(i, end=" ")
-
-# TODO: Не выдаёт результат предполагаемых чисел:
-"""
-N = 10
-Нужное число есть среди вот этих чисел: 1 2 3
-Ответ Артёма: Нет
-Нужное число есть среди вот этих чисел: 5 7 8 9 10
-Ответ Артёма: Нет
-Нужное число есть среди вот этих чисел: Помогите
-"""
