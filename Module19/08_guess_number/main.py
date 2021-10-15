@@ -21,3 +21,5 @@ while True:
 result = sorted(list(set(data["Да"]) - set(data["Нет"])))
 for i in result:
     print(i, end=" ")
+
+# зачтено

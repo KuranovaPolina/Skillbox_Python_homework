@@ -17,3 +17,4 @@ for i in range(3):
     if not find:
         print("No information")
 
+# зачтено
