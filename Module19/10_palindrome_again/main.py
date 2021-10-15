@@ -17,3 +17,5 @@ if count > 1:
     print("You can't make a palindrom")
 else:
     print("You can make a palindrom")
+
+# зачтено

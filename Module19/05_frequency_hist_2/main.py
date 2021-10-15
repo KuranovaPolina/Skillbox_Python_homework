@@ -3,6 +3,7 @@ def print_dic(dic_name):
     for letter in dic_name_list:
         print("{0} : {1}".format(letter, dic_name[letter]))
 
+
 text = input("text: ")
 letters = {}
 
@@ -26,3 +27,5 @@ print_dic(letters)
 
 print("\nInverted:")
 print_dic(letters_inv)
+
+# зачтено

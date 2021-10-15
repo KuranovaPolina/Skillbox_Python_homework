@@ -3,7 +3,7 @@ N = int(input("N = "))
 synonym_dict = {}
 
 for i in range(N):
-    pair = input("{0} pair: ".format(i+1)).lower().split(" - ")
+    pair = input("{0} pair: ".format(i + 1)).lower().split(" - ")
     synonym_dict[pair[0]] = pair[1]
     synonym_dict[pair[1]] = pair[0]
 
@@ -15,3 +15,5 @@ while True:
         break
     else:
         print("Word not find")
+
+# зачтено

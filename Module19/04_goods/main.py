@@ -35,3 +35,5 @@ for good in goods.keys():
         pass
 
     print(f"{good} - {count} шт, стоимость {res_price} руб")
+
+# зачтено

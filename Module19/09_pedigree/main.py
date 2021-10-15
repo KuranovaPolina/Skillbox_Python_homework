@@ -4,11 +4,12 @@ def height(man):
     else:
         return 1 + height(pedigree[man])
 
+
 N = int(input("N = "))
 pedigree = {}
 
 for i in range(N - 1):
-    pair = input("{0} pair: ".format(i+1)).split(" ")
+    pair = input("{0} pair: ".format(i + 1)).split(" ")
     pedigree[pair[0]] = pair[1]
 
 heights = {}
@@ -18,3 +19,5 @@ for man in set(pedigree.keys()).union(set(pedigree.values())):
 print("\nHeigh:")
 for key in sorted(heights.keys()):
     print(key, heights[key])
+
+# зачтено

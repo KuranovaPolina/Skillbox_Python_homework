@@ -16,3 +16,5 @@ for i in sorted(pizzaTimeDict.keys()):
     print("{0}:".format(i))
     for j in sorted(pizzaTimeDict[i].keys()):
         print("\t{0}:{1}".format(j, pizzaTimeDict[i][j]))
+
+# зачтено
