@@ -16,7 +16,7 @@ if search.endswith(endings[0]):
 elif search.endswith(endings[1]):
     search = search.rsplit(endings[1])[0]
 
-for i in people:
+for i in people.keys():
     if search in i.split(" ")[0].lower():
         result.append(i + ' ' + str(people[i]))
 
