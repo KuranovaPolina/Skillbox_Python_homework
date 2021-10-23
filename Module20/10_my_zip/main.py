@@ -9,10 +9,11 @@ def my_zip(string, tpl):
     return result
 
 
-input_string = input("String: ")
-number_tuple = tuple((input("Tuple: "))[1:][:-1].split(", "))
+input_string = 'abcd'
+number_tuple = (1, 2)
 
 print(zip(tuple(input_string), number_tuple))
 for i in my_zip(input_string, number_tuple):
     print(i)
 
+# зачтено

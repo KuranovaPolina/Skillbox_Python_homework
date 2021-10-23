@@ -15,3 +15,5 @@ def new_tuple_func(start_tuple, number):
 first_tuple = (1, 2, 3, 4, 5, 6, 2, 5, 4, 7, 9, 1)
 N = int(input("N: "))
 print(new_tuple_func(first_tuple, N))
+
+# зачтено

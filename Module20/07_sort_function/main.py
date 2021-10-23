@@ -5,5 +5,7 @@ def tpl_sort(tpl):
     return tuple(sorted(tpl))
 
 
-test_tpl = (17, 34, 6, 2, 3, 4, 5, 6, 19, 9, 10)
+test_tpl = (17, 34, 6, 2, 3, 4, 5, 6, '19.9', 10)
 print(tpl_sort(test_tpl))
+
+# зачтено

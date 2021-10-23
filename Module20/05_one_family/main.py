@@ -25,3 +25,5 @@ if not result:
 else:
     for i in result:
         print(i)
+
+# зачтено

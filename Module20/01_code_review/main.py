@@ -32,3 +32,5 @@ def f(diction):
 
 interest_list, general_length = f(students)
 print(interest_list, general_length)
+
+# зачтено
