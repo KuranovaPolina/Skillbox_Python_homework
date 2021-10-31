@@ -9,8 +9,8 @@ def my_zip(*arg):
 
 input_string = 'abcd'
 input_tuple = (1, 2, 10)
-input_dict = {'a': 1, 'b': 2, 'c': 3}
-input_list = [4, 6, 8, 10, 11]
-print(my_zip(input_string, input_tuple, input_dict, input_list))
-for i in my_zip(input_string, input_tuple, input_dict, input_list):
+print(my_zip(input_string, input_tuple))
+for i in my_zip(input_string, input_tuple):
     print(i)
+
+# зачтено

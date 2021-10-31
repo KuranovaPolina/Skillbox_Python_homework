@@ -5,3 +5,5 @@ def out_func(num):
 
 
 out_func(5)
+
+# зачтено

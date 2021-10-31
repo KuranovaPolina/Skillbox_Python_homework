@@ -14,3 +14,5 @@ def make_list(lst):
 
 
 print(make_list(nice_list))
+
+# зачтено

@@ -12,7 +12,7 @@ site = {
 }
 
 
-def find_key(dictionary, key, depth, now = 0):
+def find_key(dictionary, key, depth, now=0):
     if depth != -1 and depth < now:
         return
 
@@ -39,3 +39,5 @@ if result:
     print(result)
 else:
     print("Not found")
+
+# зачтено

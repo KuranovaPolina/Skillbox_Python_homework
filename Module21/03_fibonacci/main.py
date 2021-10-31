@@ -6,3 +6,5 @@ def find_fibonacci_num(pos):
 
 num_pos = int(input("Location: "))
 print("Number:", find_fibonacci_num(num_pos))
+
+# зачтено

@@ -27,3 +27,5 @@ def calculating_math_func(data, factorials={1: 1}):
 print(calculating_math_func_start(6))
 print(calculating_math_func(5)[0])
 print(calculating_math_func(6)[0])
+
+# зачтено

@@ -30,7 +30,6 @@ for _ in range(N):
     products_list.insert(0, product_name)
     sites_func(products_list)
 
-
 '''
 # version with recursion - problem
 if i == "телефон":
@@ -43,3 +42,5 @@ else:
     print(i)
     print(new_site)
 '''
+
+# зачтено
