@@ -19,6 +19,7 @@ path = os.path.abspath("second_tour.txt")
 file = open(path, 'w')
 file.write(str(len(sorted_result_keys)))
 line = 1
+
 for person in sorted_result_keys:
     file.write(f"\n{line}) {person} {result[person]}")
     line += 1
