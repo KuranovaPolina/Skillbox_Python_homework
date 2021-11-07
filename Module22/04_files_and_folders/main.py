@@ -31,8 +31,14 @@ for file in files:
         folder_count += 1
         size += folder_size_f(file_path)
 
-
 print(size / 1024)
 print(folder_count)
 print(file_count)
 
+# TODO: Количество файлов не считает:
+"""
+..\..\Module22
+10.765625
+7
+0
+"""
