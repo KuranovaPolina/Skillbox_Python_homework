@@ -13,3 +13,5 @@ path = os.path.abspath('answer.txt')
 file = open(path, 'w')
 file.write(f"result {result}")
 file.close()
+
+# зачтено

@@ -12,3 +12,5 @@ zen_file.close()
 
 for i_line in lines[::-1]:
     print(i_line, end='')
+
+# зачтено

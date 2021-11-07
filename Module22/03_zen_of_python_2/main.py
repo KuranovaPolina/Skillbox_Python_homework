@@ -32,3 +32,5 @@ print("word:", word_count)
 print("letters:", letter_count)
 sorted_result = sorted(result, key=result.get)
 print("letter:", sorted_result[0])
+
+# зачтено

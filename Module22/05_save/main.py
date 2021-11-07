@@ -17,3 +17,5 @@ else:
     file.write(string)
     file.close()
     print("writed")
+
+# зачтено

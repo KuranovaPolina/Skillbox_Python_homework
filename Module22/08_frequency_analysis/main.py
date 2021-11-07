@@ -33,3 +33,5 @@ for letter in sorted_result:
     file.write(f"{letter} {result[letter]}\n")
 file.close()
 print(result)
+
+# зачтено

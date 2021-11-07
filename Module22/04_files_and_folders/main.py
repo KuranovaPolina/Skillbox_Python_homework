@@ -1,7 +1,7 @@
 import os
 
-path = input("Input path: ")
-# path = os.path.join('..', '..', '..', 'python_basic')
+# path = input("Input path: ")
+path = os.path.join('..', '..', 'Module14')
 files = os.listdir(path)
 size = 0
 folder_count = 0
@@ -17,3 +17,5 @@ for file in files:
 print(size)
 print(folder_count)
 print(file_count)
+
+# TODO: Не считает размер и количество файлов

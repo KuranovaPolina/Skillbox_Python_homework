@@ -24,3 +24,5 @@ for i_line in file:
 
 file.close()
 file2.close()
+
+# зачтено

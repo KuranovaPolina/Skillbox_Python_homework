@@ -25,3 +25,5 @@ for person in sorted_result_keys:
     line += 1
 
 file.close()
+
+# зачтено
