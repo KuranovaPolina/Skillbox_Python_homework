@@ -52,16 +52,4 @@ try:
 except FileNotFoundError:
     print("File not found")
 
-
-'''
-def error_func(line):
-    tmp_result = 0
-    tmp_answer = input(f"{line} has error. Change? (Yes/No)")
-    if tmp_answer.lower() == "yes":
-        tmp_new_line = input("New line: ")
-        try:
-            tmp_result += count_func(tmp_new_line)
-            return tmp_result
-        except (IndexError, ZeroDivisionError):
-            error_func(tmp_new_line)
-'''
+# зачтено

@@ -36,3 +36,5 @@ except FileNotFoundError:
     print("File not found")
 right_file.close()
 errors_file.close()
+
+# зачтено

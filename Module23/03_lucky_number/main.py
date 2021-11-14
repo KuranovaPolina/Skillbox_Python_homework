@@ -1,6 +1,5 @@
 import random
 
-
 count = 0
 with open('result.txt', 'w') as file:
     while count < 777:
@@ -15,3 +14,5 @@ with open('result.txt', 'w') as file:
             number = int(input("Number:"))
             count += number
             file.write(str(number) + '\n')
+
+# зачтено

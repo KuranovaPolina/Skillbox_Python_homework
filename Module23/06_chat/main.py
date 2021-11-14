@@ -33,3 +33,5 @@ while True:
         write_message(user, email)
     else:
         print("Error. Try again")
+
+# зачтено

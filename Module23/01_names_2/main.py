@@ -26,3 +26,5 @@ except FileNotFoundError:
 
 finally:
     print(general_len)
+
+# зачтено

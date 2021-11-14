@@ -28,3 +28,5 @@ except FileNotFoundError:
     print("File not found")
 except ZeroDivisionError:
     print("Zero division")
+
+# зачтено
