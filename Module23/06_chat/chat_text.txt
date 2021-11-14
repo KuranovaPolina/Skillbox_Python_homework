@@ -1,0 +1,5 @@
+Polina: Hello world
+Polina: Hello
+Lina: Hey
+Lina: How are you?
+Polina: Fine. You?
