@@ -39,3 +39,5 @@ parent1.information()
 child1 = Child(145678, 3)
 parent1.add_children(child1)
 parent1.information()
+
+# зачтено
