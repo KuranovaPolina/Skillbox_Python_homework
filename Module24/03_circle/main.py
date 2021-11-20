@@ -23,10 +23,13 @@ class Circle:
             return True
         return False
 
-# circle1 = Circle(1, 1, 2)
-# print(circle1.square())
-# print(circle1.perimeter())
-# circle1.zoom(2)
-# print(circle1.R)
-# circle2 = Circle(1, 8, 2)
-# print(circle1.cross(circle2))
+
+circle1 = Circle(1, 1, 2)
+print(circle1.square())
+print(circle1.perimeter())
+circle1.zoom(2)
+print(circle1.R)
+circle2 = Circle(1, 8, 2)
+print(circle1.cross(circle2))
+
+# зачтено

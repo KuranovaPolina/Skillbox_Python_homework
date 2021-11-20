@@ -7,3 +7,5 @@ e = Vanisher()
 print(c.Name)
 d = c + e
 print(d.Name)
+
+# зачтено

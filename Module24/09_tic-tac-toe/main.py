@@ -10,7 +10,6 @@ class Field:
         else:
             raise BaseException
 
-
     def print_field(self):
         for y in range(3):
             for x in range(3):
@@ -53,3 +52,5 @@ while count != 9:
         if field.check_win():
             print(f"End... Win {element}!")
             break
+
+# зачтено

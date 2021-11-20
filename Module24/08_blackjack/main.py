@@ -111,3 +111,27 @@ else:
         print("user win")
     else:
         print("computer win")
+
+# TODO: У меня перебор, почему игра продолжается?
+"""
+2 hearts
+9 clovers
+
+1. take card
+2. stop
+1
+2 hearts
+9 clovers
+7 pikes
+
+1. take card
+2. stop
+1
+2 hearts
+9 clovers
+7 pikes
+5 tiles
+
+1. take card
+2. stop
+"""

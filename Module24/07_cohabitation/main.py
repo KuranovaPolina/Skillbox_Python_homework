@@ -1,5 +1,6 @@
 import random
 
+
 class Person:
     def __init__(self, name, house, satiety=50):
         self.Name = name
@@ -57,10 +58,12 @@ for _ in range(365):
     if person1.Satiety < 0:
         print(f"{person1.Name} died")
         break
-    # else:
-    #     print(f"{person1.Name} - {person1.Satiety}")
+    else:
+        print(f"{person1.Name} - {person1.Satiety}")
     if person2.Satiety < 0:
         print(f"{person2.Name} died")
         break
-    # else:
-    #     print(f"{person2.Name} - {person2.Satiety}")
+    else:
+        print(f"{person2.Name} - {person2.Satiety}")
+
+# зачтено

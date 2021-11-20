@@ -44,3 +44,5 @@ sort(students)
 for i in range(len(students)):
     student = students[i]
     print(f"{student.FirstSecondName} - {student.GroupNumber} - {student.Performance}")
+
+# зачтено

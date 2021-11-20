@@ -26,3 +26,5 @@ while True:
     elif soldier2.points <= 0:
         print("End! First win")
         break
+
+# зачтено
