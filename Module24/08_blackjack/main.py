@@ -37,34 +37,29 @@ def card_make(user, other):
     all_card.extend(user)
     all_card.extend(other)
 
-    try:
-        if len(all_card) < 52:
-            number = random.randint(1, 13)
-            suit = random.randint(0, 3)
-            card = Card(number, suit)
+    if len(all_card) < 52:
+        number = random.randint(1, 13)
+        suit = random.randint(0, 3)
+        card = Card(number, suit)
 
-            if all_card == []:
-                user.append(card)
+        if all_card == []:
+            user.append(card)
 
-            else:
-                while True:
-                    find = False
-                    for i_card in all_card:
-                        if card == i_card:
-                            find = True
-                            break
-                    if find:
-                        number = random.randint(1, 13)
-                        suit = random.randint(0, 3)
-                        card = Card(number, suit)
-                    else:
-                        break
-
-                user.append(card)
         else:
-            raise BaseException
-    except BaseException:
-        print("End of card")
+            while True:
+                find = False
+                for i_card in all_card:
+                    if card == i_card:
+                        find = True
+                        break
+                if find:
+                    number = random.randint(1, 13)
+                    suit = random.randint(0, 3)
+                    card = Card(number, suit)
+                else:
+                    break
+
+            user.append(card)
 
 
 def print_cards(cards):
@@ -96,8 +91,12 @@ for _ in range(2):
 while True:
     print_cards(user_cards)
     action = input("\n1. take card\n2. stop\n")
+    print("")
     if action == "1":
         card_make(user_cards, computer_cards)
+        if sum_cards(user_cards) > 21:
+            print_cards(user_cards)
+            break
     else:
         break
 
@@ -108,30 +107,6 @@ if user_result == 21:
 else:
     computer_result = sum_cards(computer_cards)
     if (user_result < 21) and (user_result > computer_result):
-        print("user win")
+        print("\nuser win")
     else:
-        print("computer win")
-
-# TODO: У меня перебор, почему игра продолжается?
-"""
-2 hearts
-9 clovers
-
-1. take card
-2. stop
-1
-2 hearts
-9 clovers
-7 pikes
-
-1. take card
-2. stop
-1
-2 hearts
-9 clovers
-7 pikes
-5 tiles
-
-1. take card
-2. stop
-"""
+        print("\ncomputer win")
