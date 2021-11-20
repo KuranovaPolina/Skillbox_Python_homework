@@ -35,9 +35,7 @@ class Child:
 
 parent1 = Parent(1, 20)
 print(parent1.Age)
-# TODO: У вас метод information и так просто печатает информацию, вам не нужно его оборачивать в print()
-print(parent1.information())
+parent1.information()
 child1 = Child(145678, 3)
 parent1.add_children(child1)
-# TODO: У вас метод information и так просто печатает информацию, вам не нужно его оборачивать в print()
-print(parent1.information())
+parent1.information()
