@@ -3,7 +3,7 @@ class Property:
         self.worth = worth
 
     def taxes(self):
-        return self.worth
+        pass
 
 
 class Apartment(Property):
