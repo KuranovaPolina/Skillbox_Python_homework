@@ -63,6 +63,7 @@ cat3 = Cat("Cat3", house1)
 child1 = Person("Child", house1)
 
 for _ in range(365):
+    print(_)
     husband1_action = random.randint(1, 3)
     wife1_action = random.randint(1, 3)
     cat1_action = random.randint(1, 6)
@@ -137,3 +138,5 @@ for _ in range(365):
 
 print()
 house1.result()
+
+# зачтено

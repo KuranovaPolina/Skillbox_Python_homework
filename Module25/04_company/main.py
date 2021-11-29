@@ -38,7 +38,6 @@ managers = []
 agents = []
 workers = []
 
-
 manager1 = Manager("name1", "surname1", 1)
 manager2 = Manager("name2", "surname2", 2)
 manager3 = Manager("name3", "surname3", 3)
@@ -65,3 +64,5 @@ objects.append(worker3)
 
 for i in objects:
     print(i.salary_count())
+
+# зачтено

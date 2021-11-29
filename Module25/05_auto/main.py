@@ -22,7 +22,7 @@ class Car:
 
 
 class Bus(Car):
-    def __init__(self, x, y, a, passenger_count=0, money=0,  rad=True):
+    def __init__(self, x, y, a, passenger_count=0, money=0, rad=True):
         super().__init__(self, x, y, a, rad)
         self.passenger_count = passenger_count
         self.money = money
@@ -39,3 +39,5 @@ class Bus(Car):
     def move(self, l):
         super().move(l)
         self.money += 1 * self.passenger_count * l
+
+# зачтено

@@ -50,3 +50,5 @@ elif property1 == 2:
 elif property1 == 3:
     countryHouse = CountryHouse(cost)
     print_info(countryHouse, all_money)
+
+# зачтено

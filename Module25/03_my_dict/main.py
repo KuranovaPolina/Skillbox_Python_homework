@@ -15,3 +15,5 @@ dict2 = MyDict(dict1)
 
 print(dict1.get(2))
 print(dict2.get(2))
+
+# зачтено

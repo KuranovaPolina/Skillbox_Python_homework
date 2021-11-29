@@ -30,3 +30,5 @@ file.close()
 
 while karma < KARMA_LEVEL:
     karma += one_day()
+
+# зачтено
