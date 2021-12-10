@@ -1,7 +1,7 @@
 import os
 
 
-def file_len_count(file_pass: str):
+def file_len_count(file_pass: str) -> int:
     count = 0
     with open(file_pass) as f:
         for line in f.readlines():
@@ -10,7 +10,7 @@ def file_len_count(file_pass: str):
     return count
 
 
-def files(dir):
+def files(dir: str) -> int:
     dir_files = os.listdir(dir)
     for file in dir_files:
         file_path = os.path.abspath(file)
