@@ -1,7 +1,7 @@
 import os
 
 
-def gen_files_path(catalog: str, dir='C:'+os.path.sep, find=False) -> tuple:
+def gen_files_path(catalog: str, dir='C:' + os.path.sep, find=False) -> tuple:
     folder_files = os.listdir(dir)
     for folder_file in folder_files:
         folder_file_path = os.path.join(dir, folder_file)
@@ -21,5 +21,7 @@ def gen_files_path(catalog: str, dir='C:'+os.path.sep, find=False) -> tuple:
             break
 
 
-for i_path in gen_files_path("06_magic", "C:\Polina\python_basic"):
+for i_path in gen_files_path("06_magic", "../../../python_basic"):
     print(i_path[0])
+
+# зачтено

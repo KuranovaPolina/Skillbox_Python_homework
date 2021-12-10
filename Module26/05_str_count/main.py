@@ -19,6 +19,10 @@ def files(dir: str) -> int:
 
 
 result = 0
-for i in files(os.path.dirname(os.path.abspath(__file__))):
+for i in files('../../Module14/01_os_info'):
     result += i
 print(result)
+
+# TODO: По пути в папке Module14/01_os_info у вас одни .py файл, в нем вообще всего 13 строк.
+#  А по условиям задачи подходит лишь 10 строк.
+#  Ваша программа выдает ответ 18.

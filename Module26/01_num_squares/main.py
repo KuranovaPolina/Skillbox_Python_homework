@@ -3,6 +3,7 @@ class Iter:
         self.__N = N
         self.__counter = 0
 
+    # TODO: Здесь возвращается либо число, либо ничего
     def __next__(self):
         if self.__counter < self.__N:
             self.__counter += 1
@@ -10,6 +11,7 @@ class Iter:
         else:
             raise StopIteration
 
+    # TODO: Для аннотации в данном случае используется название класса в кавычках
     def __iter__(self):
         return self
 
@@ -31,6 +33,5 @@ N = int(input("N = "))
 it3 = (x ** 2 for x in range(1, N + 1))
 for i in it3:
     print(i)
-
 
 # что делать с аннотацией next и init

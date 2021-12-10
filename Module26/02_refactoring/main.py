@@ -14,3 +14,5 @@ for result in finder(list_1, list_2):
     if result == to_find:
         print('Found!!!')
         break
+
+# зачтено
