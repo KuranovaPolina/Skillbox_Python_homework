@@ -23,3 +23,5 @@ result = 0
 for i in files('../../Module14/01_os_info'):
     result += i
 print(result)
+
+# зачтено

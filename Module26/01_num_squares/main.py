@@ -31,3 +31,5 @@ N = int(input("N = "))
 it3 = (x ** 2 for x in range(1, N + 1))
 for i in it3:
     print(i)
+
+# зачтено

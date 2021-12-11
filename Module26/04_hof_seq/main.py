@@ -18,3 +18,5 @@ for _ in range(20):
         print(next(first_line))
     except StopIteration:
         break
+
+# зачтено
