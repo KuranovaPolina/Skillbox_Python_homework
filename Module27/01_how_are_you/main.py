@@ -6,11 +6,12 @@ def how_are_you(function_to_decorate):
 
 
 @how_are_you
-def test():
+def test() -> None:
     print('<Тут что-то происходит...>')
 
+
 @how_are_you
-def helloWorld(mess):
+def helloWorld(mess: str) -> None:
     print(mess)
 
 
