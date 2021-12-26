@@ -16,3 +16,5 @@ def test() -> None:
 
 print("1")
 test()
+
+# зачтено

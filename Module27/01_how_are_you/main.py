@@ -18,3 +18,5 @@ def helloWorld(mess: str) -> None:
 
 test()
 helloWorld("Hello world")
+
+# зачтено

@@ -28,3 +28,5 @@ first(1, 0)
 print()
 first(0, 0)
 print()
+
+# зачтено

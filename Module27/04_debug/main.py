@@ -29,6 +29,7 @@ def debug(function):
         print(f"'{function.__name__}' вернула значение {function(*args, **kwargs)}")
         print(function(*args, **kwargs))
         return function(*args, **kwargs)
+
     return wrapped_func
 
 
@@ -43,3 +44,5 @@ def greeting(name: str, age=None) -> str:
 greeting("Том")
 greeting("Миша", age=100)
 greeting(name="Катя", age=16)
+
+# зачтено
