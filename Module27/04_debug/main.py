@@ -28,6 +28,7 @@ def debug(function):
             print(f"Вызывается {function.__name__}({a_line}{k_line})")
         print(f"'{function.__name__}' вернула значение {function(*args, **kwargs)}")
         print(function(*args, **kwargs))
+        # TODO: Помимо печати результата его еще надо возвращать
     return wrapped_func
 
 

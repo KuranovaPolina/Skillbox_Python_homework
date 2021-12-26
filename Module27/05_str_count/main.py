@@ -1,7 +1,7 @@
 def counter(func):
     def wrapper(*args, **kwargs) -> None:
         wrapper.count += 1
-        func(*args, **kwargs)
+        func(*args, **kwargs)  # TODO: Не забываем возвращать результат
 
     wrapper.count = 0
     return wrapper

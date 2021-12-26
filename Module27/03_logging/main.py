@@ -6,7 +6,7 @@ def logging(function_to_decorate):
         try:
             print(f"{function_to_decorate.__name__}")
             print(f"{function_to_decorate.__doc__}")
-            function_to_decorate(*args, **kwargs)
+            function_to_decorate(*args, **kwargs)  # TODO: Не забываем возвращать результат
         except Exception as err:
             file_name = 'function_errors.log'
             file = open(file_name, 'a')
