@@ -1,8 +1,7 @@
 def how_are_you(function_to_decorate):
-    # TODO: Не забываем передавать ещё и **kwargs
-    def wrapped_func(*args):
+    def wrapped_func(*args, **kwargs):
         print("Как дела? Хорошо\nА у меня не очень! Ладно, держи свою функцию.")
-        function_to_decorate(*args)  # TODO: Не забываем передавать ещё и **kwargs и возвращать результат
+        return function_to_decorate(*args, **kwargs)
 
     return wrapped_func
 

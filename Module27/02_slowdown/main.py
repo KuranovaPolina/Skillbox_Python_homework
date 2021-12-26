@@ -2,10 +2,9 @@ import time
 
 
 def slower(function_to_decorate):
-    # TODO: Не забываем передавать ещё и **kwargs
-    def wrapped_func(*args) -> None:
+    def wrapped_func(*args, **kwargs) -> None:
         time.sleep(3)
-        function_to_decorate(*args)  # TODO: Не забываем передавать ещё и **kwargs и возвращать результат
+        return function_to_decorate(*args, **kwargs)
 
     return wrapped_func
 
