@@ -51,7 +51,7 @@ class Triangle:
             self.__height = height
 
     def perimeter(self) -> float:
-        return self.__base + 2 * math.sqrt((self.__base/2) ** 2 + self.__height ** 2)
+        return self.__base + 2 * math.sqrt((self.__base / 2) ** 2 + self.__height ** 2)
 
     def square(self) -> float:
         return 0.5 * self.__base * self.__height
@@ -71,3 +71,5 @@ class Pyramid:
 
     def square(self):
         return self.figures[0].square() + self.figures[1].square()
+
+# зачтено

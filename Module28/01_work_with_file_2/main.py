@@ -24,3 +24,5 @@ with File('example.txt') as info:
         info[0].write('Всем привет')
     else:
         print(info[0].read())
+
+# зачтено
