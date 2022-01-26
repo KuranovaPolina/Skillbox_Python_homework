@@ -5,14 +5,14 @@ from collections.abc import Callable
 def check_permission(user: str) -> Callable:
     def check(func: Callable) -> Callable:
         @functools.wraps(func)
-        def wrapped(*args, **kwargs):
+        def wrapper(*args, **kwargs):
             if user in user_permissions:
                 return func(*args, **kwargs)
             else:
                 print(f"PermissionError:"
                       f" У пользователя недостаточно прав, "
                       f"чтобы выполнить функцию {func.__name__}")
-        return wrapped
+        return wrapper
     return check
 
 
