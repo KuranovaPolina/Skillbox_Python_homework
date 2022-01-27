@@ -22,6 +22,7 @@ def timer(cls, func: Callable, day_format: str) -> Callable:
         end = time.time()
         print(f"- Завершение '{cls.__name__}.{func.__name__}', время работы = {round(end - start, 3)}s ")
         return result
+
     return wrapper
 
 
@@ -35,6 +36,7 @@ def log_methods(format: str) -> Callable:
                 decorated_method = timer(cls, current_method, new_format)
                 setattr(cls, method, decorated_method)
         return cls
+
     return decorate
 
 
@@ -69,3 +71,5 @@ class B(A):
 my_obj = B()
 my_obj.test_sum_1()
 my_obj.test_sum_2()
+
+# зачтено

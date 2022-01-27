@@ -1,7 +1,6 @@
 import functools
 from typing import Callable, Any
 
-
 app = {}
 
 
@@ -12,7 +11,9 @@ def callback(key: str) -> Callable:
         @functools.wraps(func)
         def wrapper(*args, **kwargs) -> Any:
             return func(*args, **kwargs)
+
         return wrapper
+
     return call_func
 
 
@@ -28,3 +29,5 @@ if route:
     print('Ответ:', response)
 else:
     print('Такого пути нет')
+
+# зачтено

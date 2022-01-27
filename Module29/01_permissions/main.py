@@ -12,7 +12,9 @@ def check_permission(user: str) -> Callable:
                 print(f"PermissionError:"
                       f" У пользователя недостаточно прав, "
                       f"чтобы выполнить функцию {func.__name__}")
+
         return wrapper
+
     return check
 
 
@@ -31,3 +33,5 @@ def add_comment():
 
 delete_site()
 add_comment()
+
+# зачтено
