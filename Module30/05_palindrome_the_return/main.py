@@ -12,5 +12,7 @@ def can_be_poly(string: str) -> bool:
         return True
 
 
-print(can_be_poly('ababc'))
+print(can_be_poly('abb'))
 print(can_be_poly('abbbc'))
+
+# зачтено

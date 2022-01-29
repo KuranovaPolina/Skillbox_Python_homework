@@ -1,4 +1,5 @@
 import timeit
+
 # from functools import reduce
 
 
@@ -18,3 +19,5 @@ print(res2)
 print(res3)
 # print(res4)
 # print(lambda: "-".join(map(str, range(100))))
+
+# зачтено

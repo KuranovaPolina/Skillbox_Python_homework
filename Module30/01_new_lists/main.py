@@ -13,10 +13,12 @@ numbers: List[int] = [22, 33, 10, 6894, 11, 2, 1]
 
 first_list: List[float] = list(map(lambda x: round(x ** 3, 3), floats))
 second_list: List[str] = list(filter(lambda x: len(x) >= 5, names))
-third_list: int = reduce(compos, numbers) #зачем делать список, если ответ - число
+third_list: int = reduce(compos, numbers)  # зачем делать список, если ответ - число
 # вариант со списком
 # third_list: List[int] = list(reduce(compos, numbers))
 
 print(first_list)
 print(second_list)
 print(third_list)
+
+# зачтено
