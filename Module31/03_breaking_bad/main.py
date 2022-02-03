@@ -1,7 +1,6 @@
 import requests
 import json
 
-
 my_rec = requests.get('https://breakingbadapi.com/api/deaths/')
 deaths_info = json.loads(my_rec.text)
 
@@ -13,7 +12,8 @@ episodes_info = json.loads(my_rec2.text)
 episode_id = 0
 death_list = []
 for episode in episodes_info:
-    if int(episode['season']) == sorted_deaths_info[0]['season'] and int(episode['episode']) == sorted_deaths_info[0]['episode']:
+    if int(episode['season']) == sorted_deaths_info[0]['season'] and int(episode['episode']) == sorted_deaths_info[0][
+        'episode']:
         episode_id = episode['episode_id']
         break
 
@@ -33,3 +33,5 @@ print(result_dict)
 
 with open('result.json', 'w') as file:
     json.dump(result_dict, file, indent=4)
+
+# зачтено
